@@ -1,0 +1,32 @@
+# Local research, proprietary inputs, device snapshots, and generated images.
+/tools/
+/analysis/
+/backups/
+/firmware/
+/build/
+/dist/
+/state/
+*.bin
+*.edevice
+*.dll
+*.exe
+
+# Python and local environments.
+.tools/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Credentials and editor state.
+.env
+.env.*
+*.pem
+*.key
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

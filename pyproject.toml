@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apex3-tkl"
+version = "0.1.0"
+description = "Custom firmware colors and saved key mappings for SteelSeries Apex 3 TKL 3.0.4"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "gorkemgun"}]
+dependencies = ["capstone==5.0.9", "unicorn==2.1.4"]
+
+[project.optional-dependencies]
+device = ["hidapi==0.15.0"]
+
+[project.scripts]
+apex3-tkl = "apex3_tkl.cli:main"
+
+[project.urls]
+Repository = "https://github.com/gorkemgun/apex-3-tkl"
+
+[tool.setuptools]
+packages = ["apex3_tkl"]

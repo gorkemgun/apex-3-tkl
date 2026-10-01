@@ -1,0 +1,10 @@
+{
+  "normal": {
+    "caps-lock": "escape",
+    "insert": "print-screen"
+  },
+  "fn": {
+    "insert": "insert",
+    "f6": "home"
+  }
+}
